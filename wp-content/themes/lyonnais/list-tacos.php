@@ -32,16 +32,16 @@ get_header(); ?>
            
             echo '<article class="item-tacos">';
             $img = get_field('image');
-            echo '<img class="img-pizza" alt="'.$img['alt'].'" src="'.$img['url'].'"/>';
+            echo '<img class="img-tacos" alt="'.$img['alt'].'" src="'.$img['url'].'"/>';
        
-            echo '<h1>';
+            echo '<h1 class="titre">';
             the_field('nom');
             echo '</h1>';
             
             echo '<h5>';
             the_field("prix");
             echo '</h5>';
-            echo '<p>';
+            echo '<p class="ingrédient">';
             the_field("ingredients");
             echo'</p>';
             echo '</article>';

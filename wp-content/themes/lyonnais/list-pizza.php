@@ -37,13 +37,17 @@ get_header(); ?>
             echo '<h1 class="titre">';
             the_field('nom');
             echo '</h1>';
-            echo '<h5>';
+            echo '<h5 class="type">';
             the_field('type');
             echo '</h5>';
+
+            echo '<div class="bloc-prix"><h5>';
+            the_field("prix-m");
+            echo '<span class="type-pizza">M</span></h5>';
             echo '<h5>';
-            the_field("prix");
-            echo '</h5>';
-            echo '<p>'.get_field("ingrédients").'</p>';
+            the_field("prix-l");
+            echo '<span class="type-pizza">L</span></h5></div>';
+            echo '<p class="ingrédient">'.get_field("ingrédients").'</p>';
             echo '</article>';
             
            endwhile; // End of the loop.

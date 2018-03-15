@@ -25,7 +25,7 @@ get_header(); ?>
 				echo '<h1 class="titre">';
                 the_field("nom");
                 echo '</h1>';
-                echo '<h5>';
+                echo '<h5 class="type-pizza">';
 				the_field("type");
 				echo '</h5>';
                 echo '<h5>';

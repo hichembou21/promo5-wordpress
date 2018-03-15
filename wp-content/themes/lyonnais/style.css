@@ -34,6 +34,13 @@ h1 {
 .img-pizza {
     width: 200px;
     height: 150px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.img-tacos {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .item-tacos {
@@ -45,4 +52,52 @@ h1 {
 
 .titre{
     text-align: center;
+}
+
+.item-pizza:hover {
+    box-shadow: 9px -4px 5px #aaa;
+    background-color: #D9DFE4;
+}
+
+.item-tacos:hover {
+    box-shadow: 9px -4px 5px #aaa;
+    background-color: #D9DFE4;
+}
+
+.custom-logo {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.custom-logo:hover {
+    border-radius: 10%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.bloc-prix {
+    display: flex;
+    justify-content: space-around;
+}
+
+.type-pizza {
+    color: red;
+    margin-left: 8px;
+}
+
+.ingrédient {
+    margin : 0px 20px 0px 20px;
+}
+
+.type-pizza {
+    margin-left: 12px;
+}
+
+.type {
+    margin: 25px;
 }
