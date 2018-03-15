@@ -17,3 +17,32 @@ h1 {
 .right-side {
     float: right;
 }
+
+.list-pizza {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-be;
+}
+
+.item-pizza {
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    margin: 20px 10px;
+}
+
+.img-pizza {
+    width: 200px;
+    height: 150px;
+}
+
+.item-tacos {
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    margin: 20px 10px;
+}
+
+.titre{
+    text-align: center;
+}
